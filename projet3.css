@@ -93,6 +93,7 @@ ul{
 
 .item3 img{
     margin-bottom: 50px;
+    filter: drop-shadow(20px 10px 4px #BDC3C7);
     
 }
 
