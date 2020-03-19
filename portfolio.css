@@ -20,7 +20,6 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .bl{
@@ -34,6 +33,10 @@ h3{
     color: black;
 }
 
+a:hover {
+    color: #AED6F1 ;
+}
+
 .projectlist{
     display: flex;
     flex-direction: column;
@@ -41,17 +44,9 @@ h3{
     font-family: 'Lato', sans-serif;
 }
    
-
 ul{
     list-style: none;
-    padding-left: 0;
-    
-    
-}
-
-a:hover {
-    color:black ;
-    
+    padding-left: 0;  
 }
 
 .lien{
@@ -64,8 +59,6 @@ a:hover {
     color: black ;
 }
 
-
-
 .projectimg{
     display: flex;
     flex-direction: row;
@@ -74,26 +67,33 @@ a:hover {
     margin-top:28px;
 }
 
+.projectimg img{
+    filter: drop-shadow(20px 10px 4px #BDC3C7);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;  
+}
+
+.zoom:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+
 .item1{
     display: flex;
     flex-direction: column;
-    
 }
 
 .item2{
     display: flex;
     flex-direction: column;
-    
 }
-
 
 .item3{
     display: flex;
     flex-direction: column;
-    
 }
-
-
 
 footer{
     margin-block-start: 0em;
