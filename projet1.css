@@ -66,6 +66,7 @@ ul{
     align-items: flex-start;
     flex-wrap:wrap;
     width: 75%;
+    flex-wrap:wrap;
 }
 
 .item1{
